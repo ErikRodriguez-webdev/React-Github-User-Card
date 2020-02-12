@@ -2,3 +2,16 @@
   text-align: center;
   margin-top: 5%;
 }
+
+.personalCard {
+  border: 1px solid red;
+  width: 80%;
+  margin: 1% auto;
+  background: grey;
+}
+
+.allFollowersStyle {
+  border: 1px solid black;
+  width: 40%;
+  margin: 0 auto;
+}

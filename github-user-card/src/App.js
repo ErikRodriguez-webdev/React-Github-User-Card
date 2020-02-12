@@ -1,18 +1,17 @@
 import React from "react";
-import Data from "./components/Data";
+import MyData from "./components/MyData";
+import FollowersData from "./components/FollowersData";
 import "./App.css";
 
-class App extends React.Component {
-  state = {};
-
-  render() {
-    return (
-      <div className="App">
-        <h1>GitHub Users!</h1>
-        <Data />
-      </div>
-    );
-  }
-}
+const App = () => {
+  // Title and Display Data
+  return (
+    <div className="App">
+      <h1>GitHub Users!</h1>
+      <MyData />
+      <FollowersData />
+    </div>
+  );
+};
 
 export default App;
