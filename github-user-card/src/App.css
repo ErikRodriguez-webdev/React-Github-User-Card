@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  margin-top: 5%;
+}
+
+html {
+  background: lightgray;
+}
+
+.personalCard {
+  border: 1px solid blue;
+  width: 100%;
+  margin: 1% auto;
+  background: lightblue;
+}
+
+.allFollowersStyle {
+  border: 1px solid black;
+  width: 40%;
+  margin: 1% auto;
+}
